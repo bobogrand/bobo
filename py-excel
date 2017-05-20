@@ -1,8 +1,8 @@
  #-*- coding: utf-8 -*-
 import win32com.client
 
-excel = win32com.client.Dispatch("Excel.Application")
-excel.Visible = True
+excel = win32com.client.Dispatch("Excel.Application") #
+excel.Visible = True # 화면보여주기
 wb = excel.Workbooks.Open("C:\\Users\\ksj\\Desktop\\te.xlsx")
 # 엑셀 파일 열기
 
